@@ -3,7 +3,7 @@
 # Legal Profession Sketch
 
 * Framework [marp-team/marp-cli](https://github.com/marp-team/marp-cli)
-* Theme [hyuunnn/marp-black-white ](https://github.com/hyuunnn/marp-black-white)
+* Theme [sano-jin/marp-theme-aqua](https://github.com/sano-jin/marp-theme-aqua)
 
 ```
 # install

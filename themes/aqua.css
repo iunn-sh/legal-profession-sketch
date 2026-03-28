@@ -6,8 +6,8 @@
 :root {
   font-family: Inter, Helvetica, Arial;
   --brand-color: rgb(2 136 209);
-  --logo-url: url(https://raw.githubusercontent.com/marp-team/marp/main/marp.png);
-  --logo-blue-url: url(https://raw.githubusercontent.com/marp-team/marp/main/marp-dark.png);
+  --logo-url: url(https://img.shields.io/badge/made_by-human-silver?style=for-the-badge);
+  --logo-blue-url: url(https://img.shields.io/badge/made_by-human-white?style=for-the-badge);
 }
 
 section {
@@ -70,7 +70,8 @@ table td {
 section::after {
   font-size: 0.75em;
   color: var(--brand-color);
-  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  content: attr(data-marpit-pagination);
+  /*content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);*/
 }
 
 /* the "center" keyword centers the image - may break, careful */
