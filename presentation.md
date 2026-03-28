@@ -9,13 +9,12 @@ theme: aqua
 _class: lead
 _paginate: false
 _footer: ""
+_background-image: none
 -->
 
 # 法律工作者群像速寫
 
-## 人權法治與司法實務
-
-2026.04.17
+`2026.04.17`
 
 ---
 
@@ -89,7 +88,7 @@ The primary color (blue) of this theme is picked up from the [Marp's public blog
 # Powered By 以上
 
 <!--
-_class: blue
+_class: lead blue
 _paginate: false
 _footer: ""
 -->
