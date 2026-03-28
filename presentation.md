@@ -1,6 +1,5 @@
 ---
 marp: true
-footer: 法律工作者群像速寫
 paginate: true
 theme: aqua
 ---
@@ -8,15 +7,19 @@ theme: aqua
 <!--
 _class: lead
 _paginate: false
-_footer: ""
-_background-image: none
 -->
 
 # 法律工作者群像速寫
 
+人權法治與司法實務
+
 `2026.04.17`
 
 ---
+
+<!--
+_header: "法律工作者群像速寫"
+-->
 
 ## Outline 大綱
 
@@ -30,6 +33,10 @@ _background-image: none
 
 ---
 
+<!--
+_header: "案例"
+-->
+
 ![bg right](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Be_Scam_Ready.width-1200.format-webp.webp)
 
 ### [Google在台推全新遊戲，提升全民詐騙防禦力](https://blog.google/intl/zh-tw/company-news/outreach-initiatives/be-scam-ready/) :brain:
@@ -41,6 +48,12 @@ Google在台灣推出全新互動遊戲「[防詐大作戰](https://bescamready.
 
 # 角色
 
+---
+
+<!--
+_header: "角色"
+-->
+
 - 法官
 - 檢察官
 - 律師
@@ -51,8 +64,27 @@ Google在台灣推出全新互動遊戲「[防詐大作戰](https://bescamready.
 
 # 統計
 
+---
+
+<!--
+_header: "統計"
+-->
+
+歷年案件量、種類
+上訴三審的追加限制（電信詐欺(?)被排除）
 各角色人數
 流動率
+
+---
+
+<!--
+_header: "統計"
+-->
+
+大逃難時代
+
+檢察官
+書記官
 
 ---
 

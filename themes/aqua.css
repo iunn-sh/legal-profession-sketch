@@ -2,19 +2,20 @@
 
 @import "default";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://font.emtech.cc/css/GenSekiGothicTW?weight=400");
 
 :root {
-  font-family: Inter, Helvetica, Arial;
+  font-family: GenSekiGothicTW, Inter, Helvetica, Arial;
   --brand-color: rgb(2 136 209);
-  --logo-url: url(https://img.shields.io/badge/人權法治-司法實務-silver?style=for-the-badge);
-  --logo-blue-url: url(https://img.shields.io/badge/人權法治-司法實務-white?style=for-the-badge);
+  --logo-url: url(https://raw.githubusercontent.com/twitter/twemoji/a6f943b958d94b2b82f886aa540b915d9a694a75/assets/svg/2696.svg);
+  --logo-blue-url: var(--logo-url);
 }
 
 section {
   padding: 30px 40px 30px 40px;
   background-image: var(--logo-url);
   background-repeat: no-repeat;
-  background-size: 130px;
+  background-size: 50px;
   background-position: right 40px top 40px;
   justify-content: start;
 }
@@ -83,7 +84,7 @@ img[alt~="center"] {
 /* || SECTION CLASS: lead */
 section.lead {
   padding: 70px 70px 70px 70px;
-  background-size: 240px;
+  background-size: 100px;
   background-position: left 70px top 100px;
 }
 
