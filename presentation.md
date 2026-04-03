@@ -54,7 +54,7 @@ Google在台灣推出全新互動遊戲「[防詐大作戰](https://bescamready.
 ---
 
 ### [不同的法袍顏色代表什麼職務？](https://www.tph.moj.gov.tw/4421/4475/4489/25479/)
-2024.04.19
+臺灣高等檢察署 2024.04.19
 
 | | | |
 | :---: | :---: | :---: |
@@ -63,8 +63,19 @@ Google在台灣推出全新互動遊戲「[防詐大作戰](https://bescamready.
 
 ---
 
+### 法官 :heavy_multiplication_x: 檢察官
+
+法官法13
+> 1. 法官應依據憲法及法律，本於良心，超然、獨立、公正審判，不受任何干涉。
+> 2. 法官應遵守法官倫理規範，其內容由司法院徵詢全國法官代表意見定之。
+
+法官法86
+> 1. 檢察官代表國家依法追訴處罰犯罪，為維護社會秩序之公益代表人。檢察官須超出黨派以外，維護憲法及法律保護之公共利益，公正超然、勤慎執行檢察職務。
+
+---
+
 ### [檢察官與法官有何不同？](https://www.tph.moj.gov.tw/4421/4475/4489/25477/) 
-2024.04.19
+臺灣高等檢察署 2024.04.19
 
 | | 檢察官 | 法官 |
 | --: | :---: | :---: |
@@ -75,7 +86,24 @@ Google在台灣推出全新互動遊戲「[防詐大作戰](https://bescamready.
 
 ---
 
-## 職業選擇
+### 律師
+
+律師法1
+> 1. 律師以保障人權、實現社會正義及促進民主法治為使命。
+> 2. 律師應基於前項使命，本於自律自治之精神，誠正信實執行職務，維護社會公義及改善法律制度。
+
+律師倫理規範7
+> 律師應體認律師職務為公共職務，於執行職務時，應兼顧當事人合法權益及公共利益。
+
+律師倫理規範11
+> 律師不應拘泥於訴訟勝敗而忽略真實之發現。
+
+律師倫理規範13
+> 律師不得以違反公共秩序善良風俗或有損律師尊嚴與信譽之方法受理業務。
+
+---
+
+## 職業選擇：公部門 :vs: 私部門
 
 - 法官
 - 檢察官
@@ -85,15 +113,34 @@ Google在台灣推出全新互動遊戲「[防詐大作戰](https://bescamready.
 - 律師
 - 法制人員
 - 法務
+- 政治工作
+- 學術研究
 - （族繁不及備載）
 
 ---
 
 ### 鄉野傳說
 
-![](https://mermaid.ink/svg/pako:eNo9kMFKw0AURX8lvHUsSTMxyWx16w9INkNnmgY6M2U6AWvpoqAiiG5ERTelFaRBXIiCWPRv2nT8C9Ok-pjFu_dc7oMZQktSBhh4KignvVisTs_NV75-ODH5q3kam_F3LCzL-jl7Ni8fy8VidT2tDMtaX10Us3klircbM7vc-sX7nZk-FvmkRvlkdT_fouXnbfnAhkSlFLBWGbOBM8XJRsJwE4tBdxhnMeBybUvF-joGuyZdMpCZrpFO6WBHK1YmYzEqO3tEHErJ_2qVzJIO4Dbp9kuV9SjRbD8liSL831VMUKb2ZCY04CDyqhLAQzgC7EdBw2n6oRuEgetEXmjDALCH3Ibv-U7kN10UIi_wRzYcV2edRhigqJzQRbsIlREbGE21VAf1H7ekaKcJjH4Bwm6JDw)
+![](https://mermaid.ink/svg/pako:eNo9kM9Kw0AQxl8lzDmWJN386V716gtILou7bQNNtmw3YC09FFQEUQ-iRUFqW5AG8SAKYrE-TZNu38I0qcIc5vt-M9_A9OCQUwYYwiCiIWn7UXp6rr6T1cOJSt7U80ANFn6kadr67EW9fi7n8_RmXBiatrq6yCazQmTvt2pyufWzj6EaT7NkVKJklN7Ptmj5dZfXVqwfn9Kf4XJxDTo0REABSxEzHUImQrKR0NtM-iCbLGQ-4Lytc8E60ge9JC3S5bEskQxod0cKlk_6UT_PbJPogPPwL1bwuNEEXCetTq7iNiWS7QWkIUj47woWUSZ2eRxJwKZpFCGAe3AEGCFUqVUtx3RNz7V16AK2am4FoZpbdW3keZZn9nU4Lk4aFcewkG1bluFUnRzmC4wGkov98t_F2_u_UGKPPw)
 
-<!-- https://mermaid.ai/live/edit#pako:eNo9UM1Kw0AQfpUw51iSZmOSverVF5BcFnfbBrq7ZbsBa-mhoCKIXkRFL6UVxCAeREEs-jZtur6F26Q6zGG-H76BbwgHkjLAwDNBOemlYnlyZr6K1f2xKV7N49iMv1PhOM7P6bN5-VjM58uraUU4zuryvJw9VaB8uzaziw1fvt-a6UNZTGqpmCzvnjbS4vPGLrjQVhkFrFXOXOBMcbKGMFzbUtAdxlkK2J4tqVhfp-DWSpcMZK5rSWd0sKUVs85UjGxmj4h9KflfrJJ5uwO4Rbp9i_IeJZrtZqStCP9nFROUqR2ZCw04SlAVAngIh4DDJGp4zTD2ozjyvSSIXRgADpDfCIPQS8Kmj2IUROHIhaPqrdeII5TYiX20jZC1uMBopqXaqzuuqh79ArCAiDU -->
+<!-- https://mermaid.ai/live/edit#pako:eNo9kM9Kw0AQxl8lzDmWJN386V716gtILou7bQNNtmw3YC09FFQEUQ-iRUFqW5AG8SAKYrE-TZNu38I0qcIc5vt-M9_A9OCQUwYYwiCiIWn7UXp6rr6T1cOJSt7U80ANFn6kadr67EW9fi7n8_RmXBiatrq6yCazQmTvt2pyufWzj6EaT7NkVKJklN7Ptmj5dZfXVqwfn9Kf4XJxDTo0REABSxEzHUImQrKR0NtM-iCbLGQ-4Lytc8E60ge9JC3S5bEskQxod0cKlk_6UT_PbJPogPPwL1bwuNEEXCetTq7iNiWS7QWkIUj47woWUSZ2eRxJwKZpFCGAe3AEGCFUqVUtx3RNz7V16AK2am4FoZpbdW3keZZn9nU4Lk4aFcewkG1bluFUnRzmC4wGkov98t_F2_u_UGKPPw -->
+
+<!-- ```mermaid
+{
+  "theme": "forest",
+  "layout": "tidy-tree"
+}
+
+mindmap
+先輩的話要聽
+   醫護人員
+     王梨
+   法袍
+     洗衣機
+   機器
+     乖乖
+     靠得住
+``` -->
 
 ---
 
@@ -127,7 +174,7 @@ JJ從「比慘」裡得到安慰，因為隔壁新北地方法院更慘，去年
 ---
 
 ### [從熱血檢察官到僵化結案機器──巨量詐騙案衝擊，新北地檢署爆發離職潮](https://www.twreporter.org/a/massive-fraud-cases-overwhelm-judicial-system-prosecutor)
-2025.12.29
+報導者 2025.12.29
 
 2025年以來，新北地方檢察署有10名檢察官離職出走，創下該署最高紀錄。位於新北市土城區的新北檢，向來是全台業務最為繁重的地檢署，根據法務部統計，2024年新收檢察案件就高達32萬件，數量高居全台22個地檢署之冠。
 
@@ -149,7 +196,7 @@ JJ從「比慘」裡得到安慰，因為隔壁新北地方法院更慘，去年
 ---
 
 ### [正義的成本　當檢察官與法官陸續昏倒](https://www.mirrormedia.mg/story/20240122pol001)
-2024.01.29
+鏡週刊 2024.01.29
 
 案件太多了。吳承學提供我們一份統計，以台北地方法院近10年為例，2013年總案件量為2.7萬多件，2023年增至3.5萬多件，10年增加3成，讓本就過勞的他們，精疲力竭到幾乎難以負荷。其中，詐騙案件增加最多，10年前一年僅800多件，2023年已暴增至一年3千多件。法官鮑慧忠就說：「我們快要被詐欺案件淹沒了！」
 
@@ -160,7 +207,7 @@ JJ從「比慘」裡得到安慰，因為隔壁新北地方法院更慘，去年
 ---
 
 ### [勞動部公文讓法官、檢察官哭笑不得　竟要求開庭別太密集以免律師過勞](https://www.ftvnews.com.tw/news/detail/2025B21W0049)
-2025.11.21
+民視新聞網 2025.11.21
 
 勞動部日前發文司法院和法務部，希望要求所屬法官和檢察官安排庭期時，不要過度密集以免律師過勞。上述公文在法官和檢察官群組瘋傳，讓司法官們覺得不可思議。
 
