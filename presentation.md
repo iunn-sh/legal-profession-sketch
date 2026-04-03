@@ -29,7 +29,7 @@ _header: "法律工作者群像速寫"
 
 ---
 
-# 案例
+## 案例
 
 ---
 
@@ -46,17 +46,65 @@ Google在台灣推出全新互動遊戲「[防詐大作戰](https://bescamready.
 
 ---
 
-# 角色
+## 角色
 
-- 法官
-- 檢察官
-- 律師
-- 法制人員
-- 法務
+進法院
+不進法院
 
 ---
 
-# 統計
+### [不同的法袍顏色代表什麼職務？](https://www.tph.moj.gov.tw/4421/4475/4489/25479/)
+2024.04.19
+
+| | | |
+| :---: | :---: | :---: |
+| 檢察官<br>![w:200px 檢察官法袍](https://www.tph.moj.gov.tw/media/355662/%E6%AA%A2%E5%AF%9F%E5%AE%98%E6%B3%95%E8%A2%8D.png) | 法官<br>![w:200px 法官法袍](https://www.tph.moj.gov.tw/media/355665/%E6%B3%95%E5%AE%98%E6%B3%95%E8%A2%8D.png) | 書記官<br>![w:200px 書記官法袍](https://www.tph.moj.gov.tw/media/355667/%E6%9B%B8%E8%A8%98%E5%AE%98%E6%B3%95%E8%A2%8D.png) | 
+| 公證人<br>![w:200px 公證人法袍](https://www.tph.moj.gov.tw/media/355664/%E5%85%AC%E8%AD%89%E4%BA%BA%E6%B3%95%E8%A2%8D.png) | 公設辯護人<br>![w:200px 公設辯護人法袍](https://www.tph.moj.gov.tw/media/355663/%E5%85%AC%E8%A8%AD%E8%BE%AF%E8%AD%B7%E4%BA%BA%E6%B3%95%E8%A2%8D.png) | 律師<br>![w:200px 律師法袍](https://www.tph.moj.gov.tw/media/355666/%E5%BE%8B%E5%B8%AB%E6%B3%95%E8%A2%8D.png) |
+
+---
+
+### [檢察官與法官有何不同？](https://www.tph.moj.gov.tw/4421/4475/4489/25477/) 
+2024.04.19
+
+| | 檢察官 | 法官 |
+| --: | :---: | :---: |
+| 主要業務 | 偵查刑事案件 | 審理案件<br>（含刑事、民事、行政、非訟等） |
+| 工作內容 | 指揮偵查刑案，<br>決定對被告起訴/不起訴/緩起訴處分。 | 審理訴訟，<br>決定被告有罪與否。 |
+| 案件可否公開 | 偵查案件不公開，不允許旁聽。 | 原則公開，可以旁聽；<br>例外不公開，不能旁聽。 |
+| 管轄機關 | 行政院法務部 | 司法院 |
+
+---
+
+## 職業選擇
+
+- 法官
+- 檢察官
+- 書記官
+- 公證人
+- 專利師
+- 律師
+- 法制人員
+- 法務
+- （族繁不及備載）
+
+---
+
+### 鄉野傳說
+
+![](https://mermaid.ink/svg/pako:eNo9kMFKw0AURX8lvHUsSTMxyWx16w9INkNnmgY6M2U6AWvpoqAiiG5ERTelFaRBXIiCWPRv2nT8C9Ok-pjFu_dc7oMZQktSBhh4KignvVisTs_NV75-ODH5q3kam_F3LCzL-jl7Ni8fy8VidT2tDMtaX10Us3klircbM7vc-sX7nZk-FvmkRvlkdT_fouXnbfnAhkSlFLBWGbOBM8XJRsJwE4tBdxhnMeBybUvF-joGuyZdMpCZrpFO6WBHK1YmYzEqO3tEHErJ_2qVzJIO4Dbp9kuV9SjRbD8liSL831VMUKb2ZCY04CDyqhLAQzgC7EdBw2n6oRuEgetEXmjDALCH3Ibv-U7kN10UIi_wRzYcV2edRhigqJzQRbsIlREbGE21VAf1H7ekaKcJjH4Bwm6JDw)
+
+<!-- https://mermaid.ai/live/edit#pako:eNo9UM1Kw0AQfpUw51iSZmOSverVF5BcFnfbBrq7ZbsBa-mhoCKIXkRFL6UVxCAeREEs-jZtur6F26Q6zGG-H76BbwgHkjLAwDNBOemlYnlyZr6K1f2xKV7N49iMv1PhOM7P6bN5-VjM58uraUU4zuryvJw9VaB8uzaziw1fvt-a6UNZTGqpmCzvnjbS4vPGLrjQVhkFrFXOXOBMcbKGMFzbUtAdxlkK2J4tqVhfp-DWSpcMZK5rSWd0sKUVs85UjGxmj4h9KflfrJJ5uwO4Rbp9i_IeJZrtZqStCP9nFROUqR2ZCw04SlAVAngIh4DDJGp4zTD2ozjyvSSIXRgADpDfCIPQS8Kmj2IUROHIhaPqrdeII5TYiX20jZC1uMBopqXaqzuuqh79ArCAiDU -->
+
+---
+
+### [請問臺灣司法人員除了法袍以外，還需要穿戴什麼東西嗎？法袍可以洗嗎？](https://www.legis-pedia.com/QA/question/1306)
+2021.04.16
+
+法袍能不能洗這件事，主要是流傳在律師界的習俗。有認為法袍是累積運氣跟道行的服裝，所以洗法袍會導致功力大減。不過，也有律師認為基於尊重所有法庭參與者的原因，服儀整齊、法袍清潔才是比較適當的做法。而不論是基於習俗或因為想避免弄髒法袍，律師如廁的時候是不會穿著法袍的。
+
+---
+
+## 統計
 
 歷年案件量、種類（新收件數）
 上訴三審的追加限制（電信詐欺(?)被排除）
@@ -119,6 +167,28 @@ JJ從「比慘」裡得到安慰，因為隔壁新北地方法院更慘，去年
 有法官表示，司法院和法務部並非律師的雇主，法官和檢察官為保障民眾訴訟權益，安排適當庭期讓案子順利進行，至於律師們合理的工作量應該是律師事務所老闆和法扶基金會負責人的責任。
 
 有檢察官指出，從勞動部公文內容來看，應該是法律扶助基金會發函要求勞動部幫忙發文，而勞動部也照辦，希望司法院和法務部要求法官和檢察官安排庭期時，要能顧及律師身心健康及合理工時。這位檢察官表示，現在詐欺案件這麼多，檢警都忙得人仰馬翻，勞動部怎麼不發文給法務部，要求檢警不要一直抓壞人，以免支援檢警辦案的檢察署和法院職員嚴重過勞？
+
+---
+
+### 地檢署統計
+
+https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualization.aspx?kind=PC&d=12
+
+地方檢察署偵查新收案件
+地方檢察署電信網路詐欺案件
+
+偵查新收件數
+偵查終結人數
+裁判確定有罪人數
+
+---
+
+### 律師統計
+
+https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?menu=INF_COMMON_LAWYER
+
+本國律師人數
+律師服務單位規模
 
 ---
 
