@@ -409,27 +409,27 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 
 ---
 
+<!--
+_footer: "[Lawsnote](https://blog.lawsnote.com/2026/01/lawsnote-ai-legal-3/) 2026.01"
+-->
+
 ### 從人工智慧的長處與短處看未來的律師產業變化
 
 > 當我們談論AI對法律實務的衝擊時，最直觀的震撼往往來自它那永不疲倦的「數位勞工」。如果一個律師團隊需要耗費三天三夜，才能勉強翻完上萬頁的實地查核（Due Diligence）文件，現在的智慧系統只要幾分鐘就能精準鎖定風險。這種對非結構化資料的處理速度，簡直像是給律師裝上了一對能透視資訊迷霧的鷹眼，讓原本繁瑣的資訊勞動轉化為高價值的策略分析。...
 >
 > 這種技術不只能處理靜態的文字檢索，它更擅長從海量的判決書中，勾勒出法官的裁量傾向， 甚至能透過過去的資料精準預測對造律師在類似案件中的辯論慣性，讓訴訟上的攻防發生在法庭活動之前，猶如現代球賽的起賽點始於情蒐一般，AI 將在開戰前點燃訴訟硝煙，資訊的搜集和訴訟策略的制定將比以往任何時候都來得更重要。
 
-<!--
-_footer: "[Lawsnote](https://blog.lawsnote.com/2026/01/lawsnote-ai-legal-3/) 2026.01"
--->
-
 ---
+
+<!--
+_footer: "[在野法潮](https://dissent.tba.org.tw/special/4784) 2025.06"
+-->
 
 ### 法律服務的下一場革命  AI重塑事務所的專業價值
 
 > AI在法律產業的應用正快速擴展，不僅成為律所提升效率的利器、廣泛應用於日常業務，甚至已進一步成為客戶所要求的作業條件。林香君律師分享，歐洲客戶曾委託英國律所處理大規模債務合約清理，並明確要求必須使用AI進行條款摘要。過去需仰賴多位律師投入數百工時的任務，現在AI幾分鐘即可完成初稿，再由資深律師快速確認，大幅縮短處理時間、提升整體效率，但這也挑戰律師傳統收費模式。
 >
 > 律所長期以「按時計費」為主，但當AI工具顯著壓縮工時後，現行計費方式便顯得不合時宜。林香君律師坦言，現在已有許多歐美律所正積極討論如何合理地將 AI 成本納入收費標準，例如透過訂閱費用攤提，或轉向「按價值計費（Charge by Value）」的模式，「律師不再只販售時間，而是提供具洞察力的結果與決策價值，這已經是歐美市場進行式，而台灣也將在不久的未來發生。」
-
-<!--
-_footer: "[在野法潮](https://dissent.tba.org.tw/special/4784) 2025.06"
--->
 
 ---
 
@@ -461,6 +461,24 @@ sankey
 Super Power,Judgment,50
 Super Power,Imagination,50
 ``` -->
+
+---
+
+<style scoped>
+ul {
+  list-style-type: none;
+}
+</style>
+
+<!--
+_footer: "[Wikipedia](https://en.wikipedia.org/wiki/Letter_and_spirit_of_the_law) 2026.04"
+-->
+
+### 法律文字 :vs: 精神
+
+> The letter of the law and the spirit of the law are two possible ways to regard rules, or laws. To obey the letter of the law is to follow the literal reading of the words of the law, whereas following the spirit of the law means enacting the intent behind the law. Although it is usual to follow both the letter and the spirit, the two are commonly referenced when they are in opposition.
+
+* 邏輯推理 :left_right_arrow: 價值選擇
 
 ---
 
