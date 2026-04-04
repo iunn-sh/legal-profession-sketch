@@ -4,6 +4,9 @@
 
 * Framework [marp-team/marp-cli](https://github.com/marp-team/marp-cli)
 * Theme [sano-jin/marp-theme-aqua](https://github.com/sano-jin/marp-theme-aqua)
+* Color [Ocean Blue Serenity](https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8)
+* Font [源石黑體 TW](https://font.emtech.cc/fonts/GenSekiGothicTW)
+* Chart [chartjs/Chart.js](https://github.com/chartjs/Chart.js)
 
 ```
 # install

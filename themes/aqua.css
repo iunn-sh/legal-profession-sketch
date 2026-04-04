@@ -6,7 +6,7 @@
 
 :root {
   font-family: GenSekiGothicTW, Inter, Helvetica, Arial;
-  --brand-color: rgb(2 136 209);
+  --brand-color: #023E8A;
   --logo-url: url(https://raw.githubusercontent.com/twitter/twemoji/a6f943b958d94b2b82f886aa540b915d9a694a75/assets/svg/2696.svg);
   --logo-blue-url: var(--logo-url);
 }
@@ -37,7 +37,7 @@ h6 {
 }
 
 a {
-  color: #9d30a6;
+  color: #0096C7;
 }
 
 code {
@@ -64,7 +64,7 @@ table th {
 table th,
 table td {
   font-size: 0.8rem;
-  border: 2px solid #0fc8f2;
+  border: 2px solid #0077b6;
 }
 
 /* https://github.com/yhatt/marp/issues/263 */
@@ -125,8 +125,8 @@ section.blue h1 {
   margin-right: 0px;
 }
 
-section.blue > a {
-  color: #303ca6;
+section.blue a {
+  color: #48CAE4;
 }
 
 section.blue::after,
