@@ -10,7 +10,7 @@
 brew install marp-cli
 
 # preview
-marp --server ./
+marp --server --html ./
 
 # export
 marp --theme themes/aqua.css presentation.md

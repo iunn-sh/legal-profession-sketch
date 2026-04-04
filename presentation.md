@@ -9,6 +9,8 @@ _class: lead
 _paginate: false
 -->
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+
 # 法律工作者群像速寫
 
 人權法治與司法實務
@@ -217,25 +219,170 @@ JJ從「比慘」裡得到安慰，因為隔壁新北地方法院更慘，去年
 
 ---
 
-### 地檢署統計
+<!--
+_footer: "[司法院](https://www.judicial.gov.tw/tw/cp-1789-90906-ae4c1-1.html) 2026.02.04"
+-->
 
-https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualization.aspx?kind=PC&d=12
+### 法院統計：司法院及所屬各機關收結件數
 
-地方檢察署偵查新收案件
-地方檢察署電信網路詐欺案件
+<div style="height:75vh;">
+  <canvas id="barChartCourt"></canvas>
+</div>
 
-偵查新收件數
-偵查終結人數
-裁判確定有罪人數
+<script>
+  const ctxCourt = document.getElementById('barChartCourt');
+
+  new Chart(ctxCourt, {
+    type: 'bar',
+    data: {
+      labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+      datasets: [{
+        label: '新收件數',
+        data: [3036007, 3134394, 3120818, 3141528, 3272998, 3375910, 3247571, 3579411, 3876061, 4177668, 4214912],
+        borderWidth: 1
+      },
+      {
+        label: '終結件數',
+        data: [3027555, 3118330, 3106737, 3132630, 3258677, 3381191, 3226216, 3549731, 3792844, 4033149, 4247229],
+        borderWidth: 1
+      }]
+    },
+    options: {
+    	responsive: true,
+	    plugins: {
+	      legend: {
+	        position: 'top',
+	      }
+	    }
+    }
+  });
+</script>
 
 ---
 
-### 律師統計
+<!--
+_footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualization.aspx?kind=PC&d=12) 2026.04.04"
+-->
 
-https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?menu=INF_COMMON_LAWYER
+### 地檢署統計：地方檢察署偵查新收件數
 
-本國律師人數
-律師服務單位規模
+<div style="height:75vh;">
+  <canvas id="barChartProsecute"></canvas>
+</div>
+
+<script>
+  const ctxProsecute = document.getElementById('barChartProsecute');
+
+  new Chart(ctxProsecute, {
+    type: 'bar',
+    data: {
+      labels: ['2022', '2023', '2024', '2025'],
+      datasets: [{
+        label: '非電信網路詐欺新收件數',
+        data: [(639301-160803), (733505-229711), (670574-167931), (694824-165834)],
+        borderWidth: 1,
+        order: 2,
+        yAxisID: 'yCount',
+      },
+      {
+        label: '電信網路詐欺新收件數',
+        data: [160803, 229711, 167931, 165834],
+        borderWidth: 1,
+        order: 1,
+        yAxisID: 'yCount',
+      },
+      {
+        label: '電信網路詐欺占全部偵查新收件數比率',
+        data: [25.2, 31.3, 25.0, 23.9],
+        borderWidth: 2,
+        type: 'line',
+        order: 0,
+      }]
+    },
+    options: {
+      scales: {
+        x: {
+          stacked: true,
+        },
+        y: {
+          beginAtZero: true,
+          position: 'right',
+          title: {
+            display: true,
+            text: '%',
+          }
+        },
+        yCount: {
+          stacked: true,
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: '件',
+          }
+        },
+      }
+    }
+  });
+</script>
+
+---
+
+<!--
+_footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?menu=INF_COMMON_LAWYER) 2026.04.04"
+-->
+
+### 律師統計：本國律師人數（人）
+
+<div style="height:75vh;">
+  <canvas id="barChartAttorney"></canvas>
+</div>
+
+<script>
+  const ctxAttorney = document.getElementById('barChartAttorney');
+
+  new Chart(ctxAttorney, {
+    type: 'line',
+    data: {
+      labels: ['2020', '2021', '2022', '2023', '2024'],
+      datasets: [{
+        label: '累計已領證',
+        data: [18484, 18928, 19448, 20171, 20902],
+        fill: true,
+        order: 1,
+      },
+      {
+        label: '年底累計加入公會',
+        data: [9569, 11123, 11454, 11998, 12562],
+        fill: true,
+        order: 0,
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: '人',
+          }
+        }
+      }
+    }
+  });
+</script>
+
+---
+
+<!--
+_footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?menu=INF_COMMON_LAWYER) 2026.04.04"
+-->
+
+### 律師統計：律師服務單位規模（家）
+
+| 年 | 總計 | 1人 | 2人 | 3-5人 | 6-10人 |	11-20人 | 21-50人 | 51人+ |
+| ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 2017 | 5,894 | 4,267 | 782 | 648 | 150 | 34 | 10 | 3 |
+| 2018 | 5,917 | 4,237 | 762 | 702 | 159 | 41 | 13 | 3 |
 
 ---
 
