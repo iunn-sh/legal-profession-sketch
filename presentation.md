@@ -4,34 +4,25 @@ paginate: true
 theme: aqua
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+
 <!--
 _class: lead blue
 _paginate: false
+_footer: "`2026.04.17`"
 -->
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+<style scoped>
+ul {
+  list-style-type: none;
+}
+</style>
 
 # 法律工作者群像速寫
 
+* :door: 角色 :bar_chart: 統計
+
 人權法治與司法實務
-
-`2026.04.17`
-
----
-
-<!--
-_header: "法律工作者群像速寫"
--->
-
-## Outline 大綱
-
-1. 案例
-2. 角色
-3. 統計
-
----
-
-## 案例
 
 ---
 
@@ -47,10 +38,49 @@ _footer: "[Google](https://blog.google/intl/zh-tw/company-news/outreach-initiati
 
 ---
 
+<!--
+_class: blue
+-->
+
 ## 角色
 
-進法院
-不進法院
+法律系
+常見職業選擇
+
+---
+
+<!--
+_footer: "[國立臺灣大學法律學院](https://www.law.ntu.edu.tw/index.php/%E4%BF%AE%E6%A5%AD%E8%A6%8F%E5%AE%9A) 2026.04"
+-->
+
+### 法律系必修課
+
+大一
+- 憲法:four:、民法總則:three:、刑法總則一:three:、刑法總則二:three:、民法債編總論一:three:
+
+大二
+- 行政法:four:、民法債編總論二:three:、民法債編各論:three:、民法身分法:three:、刑法分則:four:、國際公法:two:、法理學:two:、行政救濟法:two:、民法物權:three:、法律史:two:、票據及支付工具法:two::spades:
+
+大三
+- 商事法總論及公司法:three:、保險法:two:、民事訴訟法甲上:three:、民事訴訟法甲下:three:、刑事訴訟法:four:、勞動法:two::hearts:、公平交易法:two::clubs:、證券交易法:two::diamonds:
+
+（:spades::hearts::clubs::diamonds:：商事法群組4選2）
+
+---
+
+### 職業選擇：公部門 :vs: 私部門
+
+- 法官
+- 檢察官
+- 書記官
+- 公證人
+- 專利師
+- 律師
+- 法制人員
+- 法務
+- 政治工作
+- 學術研究
+- （族繁不及備載）
 
 ---
 
@@ -67,14 +97,14 @@ _footer: "[臺灣高等檢察署](https://www.tph.moj.gov.tw/4421/4475/4489/2547
 
 ---
 
-### 法官 :heavy_multiplication_x: 檢察官
+### 司法官：法官 :heavy_multiplication_x: 檢察官
 
 法官法13
-> 1. 法官應依據憲法及法律，本於良心，超然、獨立、公正審判，不受任何干涉。
-> 2. 法官應遵守法官倫理規範，其內容由司法院徵詢全國法官代表意見定之。
+> 1. <mark>法官</mark>應依據憲法及法律，本於良心，超然、獨立、公正審判，不受任何干涉。
+> 2. <mark>法官</mark>應遵守法官倫理規範，其內容由司法院徵詢全國法官代表意見定之。
 
 法官法86
-> 1. 檢察官代表國家依法追訴處罰犯罪，為維護社會秩序之公益代表人。檢察官須超出黨派以外，維護憲法及法律保護之公共利益，公正超然、勤慎執行檢察職務。
+> 1. <mark>檢察官</mark>代表國家依法追訴處罰犯罪，為維護社會秩序之公益代表人。檢察官須超出黨派以外，維護憲法及法律保護之公共利益，公正超然、勤慎執行檢察職務。
 
 ---
 
@@ -110,27 +140,11 @@ _footer: "[臺灣高等檢察署](https://www.tph.moj.gov.tw/4421/4475/4489/2547
 
 ---
 
-### 職業選擇：公部門 :vs: 私部門
-
-- 法官
-- 檢察官
-- 書記官
-- 公證人
-- 專利師
-- 律師
-- 法制人員
-- 法務
-- 政治工作
-- 學術研究
-- （族繁不及備載）
-
----
-
 ### 鄉野傳說
 
-![](https://mermaid.ink/svg/pako:eNo9kM9Kw0AQxl8lzDmWJN386V716gtILou7bQNNtmw3YC09FFQEUQ-iRUFqW5AG8SAKYrE-TZNu38I0qcIc5vt-M9_A9OCQUwYYwiCiIWn7UXp6rr6T1cOJSt7U80ANFn6kadr67EW9fi7n8_RmXBiatrq6yCazQmTvt2pyufWzj6EaT7NkVKJklN7Ptmj5dZfXVqwfn9Kf4XJxDTo0REABSxEzHUImQrKR0NtM-iCbLGQ-4Lytc8E60ge9JC3S5bEskQxod0cKlk_6UT_PbJPogPPwL1bwuNEEXCetTq7iNiWS7QWkIUj47woWUSZ2eRxJwKZpFCGAe3AEGCFUqVUtx3RNz7V16AK2am4FoZpbdW3keZZn9nU4Lk4aFcewkG1bluFUnRzmC4wGkov98t_F2_u_UGKPPw)
+![](https://mermaid.ink/svg/pako:eNo9kNtKw0AQhl8lzHUsOTSH7q3e-gKSm8Vs20A3W7YbsJZeFFREUUHRoqg9CGIQL0RBLNanadLtW5gmrTAX8_3_zD8wHdhlPgEENAh9iptemBwey594fncg43f53JO9qRcqirI4epVvX7PJJLka5YKizM9P0_HLCuTJZfp4n0P6cS3HZys9_ezL0VMaDworHiS365XZ901WK1g8DJPf_mx6ASrUeOADEjwiKlDCKV4idJaTHog6ocQDlLVVxklLeKAWTgO3WSQKSwR-e0Nwkk16YTfLbOJwhzG6juUsqtUBVXGjlVHU9LEgWwGucUz_VU5Cn_BNFoUCkKE5eQigDuwBKpt2yS5rtmGp0Aaku3pJ1w3b0dyKWzYdq6vCfn5OKzmmZWqm5eqaVbF021CB-IFgfLt4fP7_7h_NrZPn)
 
-<!-- https://mermaid.ai/live/edit#pako:eNo9kM9Kw0AQxl8lzDmWJN386V716gtILou7bQNNtmw3YC09FFQEUQ-iRUFqW5AG8SAKYrE-TZNu38I0qcIc5vt-M9_A9OCQUwYYwiCiIWn7UXp6rr6T1cOJSt7U80ANFn6kadr67EW9fi7n8_RmXBiatrq6yCazQmTvt2pyufWzj6EaT7NkVKJklN7Ptmj5dZfXVqwfn9Kf4XJxDTo0REABSxEzHUImQrKR0NtM-iCbLGQ-4Lytc8E60ge9JC3S5bEskQxod0cKlk_6UT_PbJPogPPwL1bwuNEEXCetTq7iNiWS7QWkIUj47woWUSZ2eRxJwKZpFCGAe3AEGCFUqVUtx3RNz7V16AK2am4FoZpbdW3keZZn9nU4Lk4aFcewkG1bluFUnRzmC4wGkov98t_F2_u_UGKPPw -->
+<!-- https://mermaid.ai/live/edit#pako:eNo9kNtKw0AQhl8lzHUsOTSH7q3e-gKSm8Vs20A3W7YbsJZeFFREUUHRoqg9CGIQL0RBLNanadLtW5gmrTAX8_3_zD8wHdhlPgEENAh9iptemBwey594fncg43f53JO9qRcqirI4epVvX7PJJLka5YKizM9P0_HLCuTJZfp4n0P6cS3HZys9_ezL0VMaDworHiS365XZ901WK1g8DJPf_mx6ASrUeOADEjwiKlDCKV4idJaTHog6ocQDlLVVxklLeKAWTgO3WSQKSwR-e0Nwkk16YTfLbOJwhzG6juUsqtUBVXGjlVHU9LEgWwGucUz_VU5Cn_BNFoUCkKE5eQigDuwBKpt2yS5rtmGp0Aaku3pJ1w3b0dyKWzYdq6vCfn5OKzmmZWqm5eqaVbF021CB-IFgfLt4fP7_7h_NrZPn -->
 
 <!-- ```mermaid
 {
@@ -142,6 +156,7 @@ mindmap
 先輩的話要聽
    醫護人員
      王梨
+     芒果
    法袍
      洗衣機
    機器
@@ -157,16 +172,19 @@ _footer: "[法律百科](https://www.legis-pedia.com/QA/question/1306) 2021.04"
 
 ### 請問臺灣司法人員除了法袍以外，還需要穿戴什麼東西嗎？法袍可以洗嗎？
 
-> 法袍能不能洗這件事，主要是流傳在律師界的習俗。有認為法袍是累積運氣跟道行的服裝，所以洗法袍會導致功力大減。不過，也有律師認為基於尊重所有法庭參與者的原因，服儀整齊、法袍清潔才是比較適當的做法。而不論是基於習俗或因為想避免弄髒法袍，律師如廁的時候是不會穿著法袍的。
+> 法袍能不能洗這件事，主要是流傳在律師界的習俗。<mark>有認為法袍是累積運氣跟道行的服裝，所以洗法袍會導致功力大減。</mark>不過，也有律師認為基於尊重所有法庭參與者的原因，服儀整齊、法袍清潔才是比較適當的做法。而不論是基於習俗或因為想避免弄髒法袍，律師如廁的時候是不會穿著法袍的。
 
 ---
 
+<!--
+_class: blue
+-->
+
 ## 統計
 
-歷年案件量、種類（新收件數）
-上訴三審的追加限制（電信詐欺(?)被排除）
-各角色人數
-流動率
+狀態
+競爭
+未來
 
 ---
 
@@ -180,7 +198,7 @@ _footer: "[天下雜誌](https://www.cw.com.tw/article/5140131) 2026.03"
 >
 > 「我們書記官缺額40個，已經缺了10年，」一名知情的資深檢察官表示。
 >
-> JJ的工作不只開庭打筆錄，還要接電話、寄送書類和歸檔。一位檢察官每月幾百件案子，被告與律師的壓力全倒在書記官一人身上。且因為書記官流動率太大，她還要花時間陪「新人」開庭，傳授筆錄系統快捷鍵與檢察官習慣。
+> JJ的工作不只<mark>開庭打筆錄</mark>，還要<mark>接電話</mark>、<mark>寄送書類</mark>和<mark>歸檔</mark>。一位檢察官每月幾百件案子，被告與律師的壓力全倒在書記官一人身上。且因為書記官流動率太大，她還要花時間陪「新人」開庭，傳授筆錄系統快捷鍵與檢察官習慣。
 >
 > JJ從「比慘」裡得到安慰，因為隔壁新北地方法院更慘，去年缺額71人，結果只報到2人。法官得共用書記官，開庭次數被迫縮減，民眾的案子愈拖愈久。
 
@@ -194,9 +212,9 @@ _footer: "[報導者](https://www.twreporter.org/a/massive-fraud-cases-overwhelm
 
 > 2025年以來，新北地方檢察署有10名檢察官離職出走，創下該署最高紀錄。位於新北市土城區的新北檢，向來是全台業務最為繁重的地檢署，根據法務部統計，2024年新收檢察案件就高達32萬件，數量高居全台22個地檢署之冠。
 > 
-> 此外，檢閱近5年數字更可以發現，大量激增的案件中，詐欺已成為主流。這類以掠奪金錢為主要目標的犯罪，就像是夾雜著砂礫和巨石的泥流，一次又一次地衝擊著司法防線。身處一線的司法官們如何自處？其中不少人為何選擇拋下鐵飯碗？詐欺暴增帶來的大量副作用又怎麼影響台灣司法體系？這些棘手的問題正一步步發酵。...
+> 此外，檢閱近5年數字更可以發現，<mark>大量激增的案件中，詐欺已成為主流</mark>。這類以掠奪金錢為主要目標的犯罪，就像是夾雜著砂礫和巨石的泥流，一次又一次地衝擊著司法防線。身處一線的司法官們如何自處？其中不少人為何選擇拋下鐵飯碗？詐欺暴增帶來的大量副作用又怎麼影響台灣司法體系？這些棘手的問題正一步步發酵。...
 >
-> 今年9月，連二審高等法院都決議暫時停分詐欺案4個月，另創刑事「審查中心」，對詐欺案件進行預先程序審查，以嚴格控管案量，提升處理效率。11月，彰化地檢署更對一名提款逾200次的詐欺車手求處高達30年刑度，並強調此舉是基於一罪一罰及罪刑相當原則，每個行為都應被完整評價及定刑，創下國內少見紀錄。
+> 今年9月，連二審高等法院都決議暫時停分詐欺案4個月，另創刑事「審查中心」，<mark>對詐欺案件進行預先程序審查，以嚴格控管案量</mark>，提升處理效率。11月，彰化地檢署更對一名提款逾200次的詐欺車手求處高達30年刑度，並強調此舉是基於一罪一罰及罪刑相當原則，每個行為都應被完整評價及定刑，創下國內少見紀錄。
 
 ---
 
@@ -210,7 +228,7 @@ _footer: "[獨立評論＠天下](https://opinion.cw.com.tw/blog/profile/566/art
 >
 > 還有其他林林總總的工作，如被告傳喚後沒有到庭，要製作拘票；又或者這幾年大幅增加的刑事訴訟科技監控等強制處分，書記官在法官決定後，要製作相關函文跟聯繫工作，可說是司法過勞下首當其衝者。
 >
-> 這裡還沒提到這幾年台灣詐騙案件激增，一個案件的被害人往往多達數十位甚至上百位，光是通知一件詐騙案件的被害人到庭，就佔據了快一整天時間。這些被佔據的日常工時，只能在下班後加班補回，當然不用說公務機關那微薄的加班費，註定只能做功德。這是血汗司法的縮影，也是基層司法過勞的日常。
+> 這裡還沒提到這幾年台灣<mark>詐騙案件</mark>激增，<mark>一個案件的被害人往往多達數十位甚至上百位</mark>，光是通知一件詐騙案件的被害人到庭，就佔據了快一整天時間。這些被佔據的日常工時，只能在下班後加班補回，當然不用說公務機關那微薄的加班費，註定只能做功德。這是血汗司法的縮影，也是基層司法過勞的日常。
 
 ---
 
@@ -222,23 +240,9 @@ _footer: "[鏡週刊](https://www.mirrormedia.mg/story/20240122pol001) 2024.01"
 
 > 案件太多了。吳承學提供我們一份統計，以台北地方法院近10年為例，2013年總案件量為2.7萬多件，2023年增至3.5萬多件，10年增加3成，讓本就過勞的他們，精疲力竭到幾乎難以負荷。其中，詐騙案件增加最多，10年前一年僅800多件，2023年已暴增至一年3千多件。法官鮑慧忠就說：「我們快要被詐欺案件淹沒了！」
 >
-> 法官是後端，司法流程的前端是檢察官，檢察官偵查後決定起訴的案子，才會送到法院。法院案件量驟增，必定代表前端地檢署的案件量更加驚人。
+> <mark>法官是後端，司法流程的前端是檢察官，檢察官偵查後決定起訴的案子，才會送到法院。法院案件量驟增，必定代表前端地檢署的案件量更加驚人。</mark>
 >
 > 以近5年的案件量來看，統計資料顯示，2019年時，全台地檢署一整年的新收案件量約56萬多件，到2023年，已暴增至一年83萬多件，短短5年，案件量增加了47％。
-
----
-
-<!--
-_footer: "[民視新聞網](https://www.ftvnews.com.tw/news/detail/2025B21W0049) 2025.11"
--->
-
-### 勞動部公文讓法官、檢察官哭笑不得　竟要求開庭別太密集以免律師過勞
-
-> 勞動部日前發文司法院和法務部，希望要求所屬法官和檢察官安排庭期時，不要過度密集以免律師過勞。上述公文在法官和檢察官群組瘋傳，讓司法官們覺得不可思議。
->
-> 有法官表示，司法院和法務部並非律師的雇主，法官和檢察官為保障民眾訴訟權益，安排適當庭期讓案子順利進行，至於律師們合理的工作量應該是律師事務所老闆和法扶基金會負責人的責任。
->
-> 有檢察官指出，從勞動部公文內容來看，應該是法律扶助基金會發函要求勞動部幫忙發文，而勞動部也照辦，希望司法院和法務部要求法官和檢察官安排庭期時，要能顧及律師身心健康及合理工時。這位檢察官表示，現在詐欺案件這麼多，檢警都忙得人仰馬翻，勞動部怎麼不發文給法務部，要求檢警不要一直抓壞人，以免支援檢警辦案的檢察署和法院職員嚴重過勞？
 
 ---
 
@@ -351,6 +355,21 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualizatio
 ---
 
 <!--
+_footer: "[民視新聞網](https://www.ftvnews.com.tw/news/detail/2025B21W0049) 2025.11"
+-->
+
+### 勞動部公文讓法官、檢察官哭笑不得　竟要求開庭別太密集以免律師過勞
+
+> <mark>勞動部</mark>日前發文<mark>司法院</mark>和<mark>法務部</mark>，希望要求所屬法官和檢察官安排庭期時，不要過度密集以免律師過勞。上述公文在法官和檢察官群組瘋傳，讓司法官們覺得不可思議。
+>
+> 有法官表示，司法院和法務部並非律師的雇主，法官和檢察官為保障民眾訴訟權益，安排適當庭期讓案子順利進行，至於律師們合理的工作量應該是律師事務所老闆和法扶基金會負責人的責任。
+>
+> 有檢察官指出，從勞動部公文內容來看，應該是<mark>法律扶助基金會</mark>發函要求勞動部幫忙發文，而勞動部也照辦，希望司法院和法務部要求法官和檢察官安排庭期時，要能顧及律師身心健康及合理工時。這位檢察官表示，現在詐欺案件這麼多，檢警都忙得人仰馬翻，勞動部怎麼不發文給法務部，要求檢警不要一直抓壞人，以免支援檢警辦案的檢察署和法院職員嚴重過勞？
+
+
+---
+
+<!--
 _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?menu=INF_COMMON_LAWYER) 2026.04"
 -->
 
@@ -370,7 +389,7 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
       datasets: [{
         label: '累計已領證',
         data: [18484, 18928, 19448, 20171, 20902],
-        fill: true,
+        fill: 1,
         order: 1,
       },
       {
@@ -407,6 +426,70 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 | 2017 | 5,894 | 4,267 | 782 | 648 | 150 | 34 | 10 | 3 |
 | 2018 | 5,917 | 4,237 | 762 | 702 | 159 | 41 | 13 | 3 |
 
+<div style="height:55vh;">
+  <canvas id="bubbleChartAttorney"></canvas>
+</div>
+
+<script>
+  const ctxAttorneyCount = document.getElementById('bubbleChartAttorney');
+
+  new Chart(ctxAttorneyCount, {
+    type: 'bubble',
+    data: {
+        datasets: [{
+            label: '2018',
+            data: [{
+              x: 1,
+              y: 4237,
+              r: 42.37 // x*y*0.01
+            }, {
+              x: 2,
+              y: 762,
+              r: 15.24
+            }, {
+              x: 4, // (3+5)*0.5
+              y: 702,
+              r: 28.08
+            }, {
+              x: 8,
+              y: 159,
+              r: 12.72
+            }, {
+              x: 15,
+              y: 41,
+              r: 6.15
+            }, {
+              x: 35,
+              y: 13,
+              r: 4.55
+            }, {
+              x: 51,
+              y: 3,
+              r: 1.53
+            }]
+          }
+      ]
+    },
+    options: {
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: '律師服務單位規模（人）',
+          }
+        },
+        y: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: '家',
+          }
+        }
+      }
+    }
+  });
+</script>
+
 ---
 
 <!--
@@ -415,9 +498,9 @@ _footer: "[Lawsnote](https://blog.lawsnote.com/2026/01/lawsnote-ai-legal-3/) 202
 
 ### 從人工智慧的長處與短處看未來的律師產業變化
 
-> 當我們談論AI對法律實務的衝擊時，最直觀的震撼往往來自它那永不疲倦的「數位勞工」。如果一個律師團隊需要耗費三天三夜，才能勉強翻完上萬頁的實地查核（Due Diligence）文件，現在的智慧系統只要幾分鐘就能精準鎖定風險。這種對非結構化資料的處理速度，簡直像是給律師裝上了一對能透視資訊迷霧的鷹眼，讓原本繁瑣的資訊勞動轉化為高價值的策略分析。...
+> 當我們談論AI對法律實務的衝擊時，最直觀的震撼往往來自它那<mark>永不疲倦的「數位勞工」</mark>。如果一個律師團隊需要耗費三天三夜，才能勉強翻完上萬頁的實地查核（Due Diligence）文件，現在的智慧系統只要幾分鐘就能精準鎖定風險。這種對非結構化資料的處理速度，簡直像是給律師裝上了一對能透視資訊迷霧的鷹眼，讓原本繁瑣的資訊勞動轉化為高價值的策略分析。...
 >
-> 這種技術不只能處理靜態的文字檢索，它更擅長從海量的判決書中，勾勒出法官的裁量傾向， 甚至能透過過去的資料精準預測對造律師在類似案件中的辯論慣性，讓訴訟上的攻防發生在法庭活動之前，猶如現代球賽的起賽點始於情蒐一般，AI 將在開戰前點燃訴訟硝煙，資訊的搜集和訴訟策略的制定將比以往任何時候都來得更重要。
+> 這種技術不只能處理靜態的文字檢索，它更擅長從海量的判決書中，勾勒出法官的裁量傾向， 甚至能透過過去的資料精準預測對造律師在類似案件中的辯論慣性，讓訴訟上的攻防發生在法庭活動之前，猶如現代球賽的起賽點始於情蒐一般，AI 將在開戰前點燃訴訟硝煙，<mark>資訊的搜集和訴訟策略的制定將比以往任何時候都來得更重要</mark>。
 
 ---
 
@@ -429,7 +512,23 @@ _footer: "[在野法潮](https://dissent.tba.org.tw/special/4784) 2025.06"
 
 > AI在法律產業的應用正快速擴展，不僅成為律所提升效率的利器、廣泛應用於日常業務，甚至已進一步成為客戶所要求的作業條件。林香君律師分享，歐洲客戶曾委託英國律所處理大規模債務合約清理，並明確要求必須使用AI進行條款摘要。過去需仰賴多位律師投入數百工時的任務，現在AI幾分鐘即可完成初稿，再由資深律師快速確認，大幅縮短處理時間、提升整體效率，但這也挑戰律師傳統收費模式。
 >
-> 律所長期以「按時計費」為主，但當AI工具顯著壓縮工時後，現行計費方式便顯得不合時宜。林香君律師坦言，現在已有許多歐美律所正積極討論如何合理地將 AI 成本納入收費標準，例如透過訂閱費用攤提，或轉向「按價值計費（Charge by Value）」的模式，「律師不再只販售時間，而是提供具洞察力的結果與決策價值，這已經是歐美市場進行式，而台灣也將在不久的未來發生。」
+> 律所長期以「按時計費」為主，但當AI工具顯著壓縮工時後，現行計費方式便顯得不合時宜。林香君律師坦言，現在已有許多歐美律所正積極討論如何合理地將AI成本納入收費標準，例如透過訂閱費用攤提，或轉向「按價值計費（Charge by Value）」的模式，「<mark>律師不再只販售時間，而是提供具洞察力的結果與決策價值</mark>，這已經是歐美市場進行式，而台灣也將在不久的未來發生。」
+
+---
+
+<!--
+_footer: "[Jason's數位行銷筆記](https://jasondiginote.com/ai-fomo/) 2026.02"
+-->
+
+### 追新會累，不追會慌，走出AI FOMO追與不追的兩難
+
+FOMO（Fear Of Missing Out）
+
+> AI FOMO表面看起來是工具焦慮，但仔細思考後應該改成以下這三種：
+>
+> 1. 能力焦慮：別人會了，我還不會，代表我落後人家一步？
+> 2. 價值焦慮：同上題，如果我還不會，那我還有價值嗎？
+> 3. 機會焦慮：如果我現在不進場，會不會下一波紅利就沒了？
 
 ---
 
@@ -447,7 +546,6 @@ ul {
 
 * 判斷力：懂，才有辦法用
 * 想像力：想得到，才可能做得到
-* :arrow_right: 超能力
 
 <!-- ```mermaid
 ---
@@ -476,7 +574,7 @@ _footer: "[Wikipedia](https://en.wikipedia.org/wiki/Letter_and_spirit_of_the_law
 
 ### 法律文字 :vs: 精神
 
-> The letter of the law and the spirit of the law are two possible ways to regard rules, or laws. To obey the letter of the law is to follow the literal reading of the words of the law, whereas following the spirit of the law means enacting the intent behind the law. Although it is usual to follow both the letter and the spirit, the two are commonly referenced when they are in opposition.
+> The <mark>letter of the law</mark> and the <mark>spirit of the law</mark> are two possible ways to regard rules, or laws. To obey the letter of the law is to follow the literal reading of the words of the law, whereas following the spirit of the law means enacting the intent behind the law. Although it is usual to follow both the letter and the spirit, the two are commonly referenced when they are in opposition.
 
 * 邏輯推理 :left_right_arrow: 價值選擇
 

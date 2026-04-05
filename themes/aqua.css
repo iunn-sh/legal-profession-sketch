@@ -9,6 +9,7 @@
   --brand-color: #023E8A;
   --logo-url: url(https://raw.githubusercontent.com/twitter/twemoji/a6f943b958d94b2b82f886aa540b915d9a694a75/assets/svg/2696.svg);
   --logo-blue-url: var(--logo-url);
+  --mark-default: #90e0ef;
 }
 
 section {
@@ -65,6 +66,14 @@ table th,
 table td {
   font-size: 0.8rem;
   border: 2px solid #0077b6;
+}
+
+mark {
+  background-color: transparent;
+  padding: 2px 1px;
+  border-radius: 5px; 
+  color: $text-color ;  
+  background: linear-gradient(transparent 40%, rgba(255,255,255,0) 50%, var(--mark-default) 75%, var(--mark-default) 90%, transparent 95%);
 }
 
 /* https://github.com/yhatt/marp/issues/263 */
