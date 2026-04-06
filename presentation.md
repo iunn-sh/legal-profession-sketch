@@ -5,6 +5,9 @@ theme: aqua
 ---
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1"></script>
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/wc.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 
 <!--
 _class: lead blue
@@ -38,6 +41,18 @@ _footer: "[Google](https://blog.google/intl/zh-tw/company-news/outreach-initiati
 
 ---
 
+### <!--fit-->《地面師》呈現不動產交易體系的疏漏與盲點，日本受害者實際被詐騙的55億日圓至今仍未討回
+
+> 《地面師》劇情以「地面師」為主軸。「地面」指的是土地，「師」則為專家，這群人自視為土地交易的專家，但實則為進行土地相關詐欺的犯罪分子，利用複雜的土地所有權關係鑽法律漏洞，透過偽造證件、文件，以假冒土地所有人或其代理人，再出售給不知情的買家，因為涉及土地交易，一次騙局往往牽扯到動輒千百萬的金錢交易。<mark>地面師往往是一個集團，包括</mark>負責主導的「領袖」、安排計畫的「交涉人」、消息靈通的「情報員」、<mark>精通法律的「法律專家」</mark>、有偽造技術的「文件偽造師」，以及尋找合適冒充者的「選角人」等成員，分工精細以確保計畫順利實施。
+>
+> 而這些地面師不是劇情設定，而是真實存在的。1980年代末到1990年代初，日本正值泡沫經濟時期，當時不動產價格高漲，地面師曾活躍一時，爾後在不動產交易文件數位化後，詐騙難度提升，讓地面師詐欺事件看似趨緩。
+
+<!--
+_footer: "[劇夠](https://dramago.ptsplus.tv/articles/17984/) 2024.08"
+-->
+
+---
+
 <!--
 _class: blue
 -->
@@ -68,19 +83,99 @@ _footer: "[國立臺灣大學法律學院](https://www.law.ntu.edu.tw/index.php/
 
 ---
 
-### 職業選擇：公部門 :vs: 私部門
+### 職業選擇：公部門？私部門？
 
-- 法官
-- 檢察官
-- 書記官
-- 公證人
-- 專利師
-- 律師
-- 法制人員
-- 法務
-- 政治工作
-- 學術研究
-- （族繁不及備載）
+<!-- Styles -->
+<style>
+#tagCloudDiv {
+  width: 100%;
+  height: 80%;
+}
+</style>
+
+<!-- Chart code -->
+<script>
+am5.ready(function() {
+
+// Create root element
+// https://www.amcharts.com/docs/v5/getting-started/#Root_element
+var root = am5.Root.new("tagCloudDiv");
+
+// Set themes
+// https://www.amcharts.com/docs/v5/concepts/themes/
+root.setThemes([
+  am5themes_Animated.new(root)
+]);
+
+// Add wrapper container
+var container = root.container.children.push(am5.Container.new(root, {
+  width: am5.percent(100),
+  height: am5.percent(100),
+  layout: root.verticalLayout
+}));
+
+// Add series
+// https://www.amcharts.com/docs/v5/charts/word-cloud/
+var series = container.children.push(am5wc.WordCloud.new(root, {
+  categoryField: "tag",
+  valueField: "weight",
+  minFontSize: am5.percent(10),
+  maxFontSize: am5.percent(30),
+  calculateAggregates: true // this is needed for heat rules to work
+}));
+
+// Set up heat rules
+// https://www.amcharts.com/docs/v5/charts/word-cloud/#Via_heat_rules
+series.set("heatRules", [{
+  target: series.labels.template,
+  dataField: "value",
+  min: am5.color(0x95d5b2),
+  max: am5.color(0x2d6a4f),
+  key: "fill"
+}]);
+
+// Configure labels
+series.labels.template.setAll({
+  paddingTop: 5,
+  paddingBottom: 5,
+  paddingLeft: 5,
+  paddingRight: 5,
+  fontFamily: "GenSekiGothicTW",
+  cursorOverStyle: "pointer"
+});
+
+// Data from:
+// https://www.sir.tw/Article/Detail/96627
+series.data.setAll([
+  { tag: "法官", weight: 50 },
+  { tag: "檢察官", weight: 45 },
+  { tag: "書記官", weight: 20 },
+  { tag: "公證人", weight: 30 },
+  { tag: "專利師", weight: 30 },
+  { tag: "律師", weight: 40 },
+  { tag: "法制人員", weight: 30 },
+  { tag: "法律廉政人員", weight: 30 },
+  { tag: "法務", weight: 20 },
+  { tag: "家族信託規劃師", weight: 20 },
+  { tag: "法律顧問", weight: 25 },
+  { tag: "政治工作", weight: 15 },
+  { tag: "學術研究", weight: 15 },
+  { tag: "檢察事務官", weight: 10 },
+  { tag: "司法事務官", weight: 10 },
+  { tag: "監所管理員", weight: 10 },
+  { tag: "調查局", weight: 25 },
+  { tag: "國家安全情報人員", weight: 25 },
+  { tag: "犯罪防治人員", weight: 20 },
+  { tag: "政治工作", weight: 15 },
+  { tag: "學術研究", weight: 15 },
+  { tag: "倡議組織", weight: 15 },
+]);
+
+}); // end am5.ready()
+</script>
+
+<!-- HTML -->
+<div id="tagCloudDiv"></div>
 
 ---
 
@@ -493,14 +588,56 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 ---
 
 <!--
-_footer: "[Lawsnote](https://blog.lawsnote.com/2026/01/lawsnote-ai-legal-3/) 2026.01"
+_footer: "[聯合晚報](https://www.ptt.cc/bbs/TMU911/M.1190100191.A.192.html) 2007.09"
 -->
 
-### 從人工智慧的長處與短處看未來的律師產業變化
+### 律師20年內人多6倍 菜鳥慘
 
-> 當我們談論AI對法律實務的衝擊時，最直觀的震撼往往來自它那<mark>永不疲倦的「數位勞工」</mark>。如果一個律師團隊需要耗費三天三夜，才能勉強翻完上萬頁的實地查核（Due Diligence）文件，現在的智慧系統只要幾分鐘就能精準鎖定風險。這種對非結構化資料的處理速度，簡直像是給律師裝上了一對能透視資訊迷霧的鷹眼，讓原本繁瑣的資訊勞動轉化為高價值的策略分析。...
+> 律師人數近10年來成長速度驚人。根據律師公會全國聯合會的統計，目前國內律師有9,922人，領照的約5,522人。資深法界人士表示，<mark>在2、30年前，律師的錄取人數，每年頂多2位數，最好的情況也只錄取5、60人</mark>。但自1991年起，律師錄取人數開始大幅躍進。
 >
-> 這種技術不只能處理靜態的文字檢索，它更擅長從海量的判決書中，勾勒出法官的裁量傾向， 甚至能透過過去的資料精準預測對造律師在類似案件中的辯論慣性，讓訴訟上的攻防發生在法庭活動之前，猶如現代球賽的起賽點始於情蒐一般，AI 將在開戰前點燃訴訟硝煙，<mark>資訊的搜集和訴訟策略的制定將比以往任何時候都來得更重要</mark>。
+> 1994年的律師高考錄取率達15.22％，錄取了563人；1999年，錄取率也有13.88％，錄取564人，近年雖然錄取人數超過500人的情況已經不再，但錄取3、400人卻是常態，<mark>2005年、2006年，錄取人數分別是427和448人</mark>。律師錄取人數大幅成長後，直接造成律師業競爭激烈。
+
+---
+
+<!--
+_footer: "[全國律師聯合會](https://www.twba.org.tw/news/9a5e368d-62f9-47eb-aa93-f68fca57b109) 2025.11"
+-->
+
+### 律師錄取人數創新高，本會嚴正抗議考訓失衡並籲請推動修法
+
+> 我國執業律師人數於2013年僅6,853人，截至2025年底已攀升至13,016人，短短12年間成長近倍。法務部早於2017年之研究報告即指出，我國合理執業律師人數約為1萬人；然<mark>自2011年律師考試改制放寬門檻以來，14年間累計錄取人數已逾1.3萬人</mark>，顯見政策與實務需求嚴重背離。
+>
+> 律師專業非一般商品而具有高度公共性，其服務品質與專業倫理難以透過純粹優勝劣敗市場競爭來確保，長期以追求錄取數量為導向、未同步檢視社會實務需求與市場容納量的錄取政策，無助於提升法律服務品質，反將導致惡性競爭，所帶來的負面影響不僅衝擊律師業，更將對整個司法品質造成影響，最終將損及社會大眾權益。...
+>
+> 專門職業及技術人員考試法立法精神，在於透過國家考試選拔具備執業能力之專業人才，而非單純追求錄取數字。尤有甚者，現行制度允許非法律科系畢業者，僅需修習20個法律學分即可報考。此舉不僅無視法律專業養成的嚴謹性，更使正規法學教育功能大幅弱化。
+
+---
+
+<!--
+_footer: "[報導者](https://www.twreporter.org/a/massive-fraud-cases-overwhelm-judicial-system-lawyers) 2025.12"
+-->
+
+### 當法律守門人墮入共犯結構──不肖律師如何遊走灰色地帶，成詐團廉價工具
+
+> 曾幾何時，律師捍衛人權、為民眾法律權益奔走、在法庭上抗衡國家權力的公益形象，已然蒙塵。近來不斷有律師因涉及替犯罪集團洩密被檢方起訴，他們<mark>以手機拍下卷證資料、筆錄，以及在押被告的供述內容，再回傳給詐團上游以牟利</mark>，甚至從個案如蛛網般不斷擴張，成立專門替詐騙集團服務的集團。
+>
+> 根據統計與檢方實務經驗，律師在「偵查中洩密」大量發生在2017年以後──該年恰好修正《刑事訴訟法》第33-1條，允許辯護人在被告羈押審查程序進行時得以檢閱卷宗及證物等偵查資料。這項本是為了保障偵查中辯護權的舉措，卻意外打開犯罪集團滲透司法制度的破口，加上整體律師生態發生變化、職業倫理與懲戒制度的不足，都使「<mark>詐團結合律師</mark>」的現象如星星之火，難以遏止。
+
+---
+
+<!--
+_footer: "[月旦法學教室](https://www.law.nccu.edu.tw/zh_tw/Faculty/JournalPapers/%E5%BE%8B%E5%B8%AB%E6%88%91%E8%A6%81%E6%80%8E%E9%BA%BC%E4%BB%98%E4%BD%A0%E9%8C%A2-%E5%BE%8B%E5%B8%AB%E9%85%AC%E9%87%91%E7%9A%84%E5%80%AB%E7%90%86%E8%A6%8F%E7%AF%84-42004041) 2014.10"
+-->
+
+### 律師我要怎麼付你錢？律師酬金的倫理規範
+
+> 我國法律實務上，律師酬金的主要收取方式有四種：
+> 1. <mark>按項目或按件計酬</mark>：例如律師函或存證信函每件若干元、訴訟書狀每件若干元、出庭費每次若干元；
+> 2. <mark>按時計酬</mark>：依工作時數計算，例如每小時若干元；
+> 3. <mark>按審級計酬（包審制）</mark>：以一個審級的完成作為收費的單位，例如一審從起訴到訴訟終結為止，無論開庭幾次、書狀撰寫了幾份、與當事人會談幾次，在這個審級都是收取一筆固定費用；
+> 4. <mark>後酬方式</mark>：依據訴訟結果的勝敗或勝訴金額來計算酬金，例如約定若勝訴則給付酬金若干元，否則僅給付一半，或是約定依照勝訴金額的一定比例來給付律師費用。
+
+:warning: 家事、刑事案件或少年事件：原則上不得約定後酬
 
 ---
 
@@ -513,6 +650,18 @@ _footer: "[在野法潮](https://dissent.tba.org.tw/special/4784) 2025.06"
 > AI在法律產業的應用正快速擴展，不僅成為律所提升效率的利器、廣泛應用於日常業務，甚至已進一步成為客戶所要求的作業條件。林香君律師分享，歐洲客戶曾委託英國律所處理大規模債務合約清理，並明確要求必須使用AI進行條款摘要。過去需仰賴多位律師投入數百工時的任務，現在AI幾分鐘即可完成初稿，再由資深律師快速確認，大幅縮短處理時間、提升整體效率，但這也挑戰律師傳統收費模式。
 >
 > 律所長期以「按時計費」為主，但當AI工具顯著壓縮工時後，現行計費方式便顯得不合時宜。林香君律師坦言，現在已有許多歐美律所正積極討論如何合理地將AI成本納入收費標準，例如透過訂閱費用攤提，或轉向「按價值計費（Charge by Value）」的模式，「<mark>律師不再只販售時間，而是提供具洞察力的結果與決策價值</mark>，這已經是歐美市場進行式，而台灣也將在不久的未來發生。」
+
+---
+
+<!--
+_footer: "[Lawsnote](https://blog.lawsnote.com/2026/01/lawsnote-ai-legal-3/) 2026.01"
+-->
+
+### 從人工智慧的長處與短處看未來的律師產業變化
+
+> 當我們談論AI對法律實務的衝擊時，最直觀的震撼往往來自它那<mark>永不疲倦的「數位勞工」</mark>。如果一個律師團隊需要耗費三天三夜，才能勉強翻完上萬頁的實地查核（Due Diligence）文件，現在的智慧系統只要幾分鐘就能精準鎖定風險。這種對非結構化資料的處理速度，簡直像是給律師裝上了一對能透視資訊迷霧的鷹眼，讓原本繁瑣的資訊勞動轉化為高價值的策略分析。...
+>
+> 這種技術不只能處理靜態的文字檢索，它更擅長從海量的判決書中，勾勒出法官的裁量傾向， 甚至能透過過去的資料精準預測對造律師在類似案件中的辯論慣性，讓訴訟上的攻防發生在法庭活動之前，猶如現代球賽的起賽點始於情蒐一般，AI 將在開戰前點燃訴訟硝煙，<mark>資訊的搜集和訴訟策略的制定將比以往任何時候都來得更重要</mark>。
 
 ---
 
@@ -589,9 +738,9 @@ _paginate: false
 
 Github [iunn-sh/legal-profession-sketch](https://github.com/iunn-sh/legal-profession-sketch) ![GitHub License](https://img.shields.io/github/license/iunn-sh/legal-profession-sketch?style=flat-square)
 
-- Framework [`marp-team/marp-cli`](https://github.com/marp-team/marp-cli)
-- Theme [`sano-jin/marp-theme-aqua`](https://github.com/sano-jin/marp-theme-aqua)
-- Color [`Ocean Blue Serenity`](https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8)
-- Font [`源石黑體 TW`](https://font.emtech.cc/fonts/GenSekiGothicTW)
-- Chart [`chartjs/Chart.js`](https://github.com/chartjs/Chart.js)
+- Framework [marp-team/marp-cli](https://github.com/marp-team/marp-cli)
+- Theme [sano-jin/marp-theme-aqua](https://github.com/sano-jin/marp-theme-aqua)
+- Color [Ocean Blue Serenity](https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8) & [Fresh Greens](https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15)
+- Font [源石黑體 TW](https://font.emtech.cc/fonts/GenSekiGothicTW)
+- Chart [chartjs/Chart.js](https://github.com/chartjs/Chart.js) & [amCharts](https://www.amcharts.com/)
 
