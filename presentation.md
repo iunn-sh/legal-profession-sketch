@@ -349,7 +349,7 @@ _footer: "[司法院](https://www.judicial.gov.tw/tw/cp-1789-90906-ae4c1-1.html)
 
 ### 法院統計：司法院及所屬各機關收結件數
 
-<div style="height:70vh;">
+<div style="height:75vh;">
   <canvas id="barChartCourt"></canvas>
 </div>
 
@@ -390,7 +390,7 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualizatio
 
 ### 地檢署統計：地方檢察署偵查新收件數
 
-<div style="height:70vh;">
+<div style="height:75vh;">
   <canvas id="barChartProsecute"></canvas>
 </div>
 
@@ -472,7 +472,7 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 
 ### 律師統計：本國律師人數（人）
 
-<div style="height:70vh;">
+<div style="height:75vh;">
   <canvas id="barChartAttorney"></canvas>
 </div>
 
@@ -523,7 +523,7 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 | 2017 | 5,894 | 4,267 | 782 | 648 | 150 | 34 | 10 | 3 |
 | 2018 | 5,917 | 4,237 | 762 | 702 | 159 | 41 | 13 | 3 |
 
-<div style="height:50vh;">
+<div style="height:55vh;">
   <canvas id="bubbleChartAttorney"></canvas>
 </div>
 
