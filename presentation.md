@@ -88,7 +88,7 @@ _footer: "[國立臺灣大學法律學院](https://www.law.ntu.edu.tw/index.php/
 <!-- Styles -->
 <style>
 #tagCloudDiv {
-  width: 100%;
+  width: 80%;
   height: 80%;
 }
 </style>
@@ -175,7 +175,9 @@ series.data.setAll([
 </script>
 
 <!-- HTML -->
-<div id="tagCloudDiv"></div>
+<div style="height:75vh;">
+  <div id="tagCloudDiv"></div>
+</div>
 
 ---
 
