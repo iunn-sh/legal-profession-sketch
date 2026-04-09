@@ -85,13 +85,8 @@ _footer: "[國立臺灣大學法律學院](https://www.law.ntu.edu.tw/index.php/
 
 ### 職業選擇：公部門？私部門？
 
-<!-- Styles -->
-<style>
-#tagCloudDiv {
-  width: 80%;
-  height: 80%;
-}
-</style>
+<!-- HTML -->
+<div id="tagCloudDiv" style="height:80%;width:90%;"></div>
 
 <!-- Chart code -->
 <script>
@@ -173,11 +168,6 @@ series.data.setAll([
 
 }); // end am5.ready()
 </script>
-
-<!-- HTML -->
-<div style="height:75vh;">
-  <div id="tagCloudDiv"></div>
-</div>
 
 ---
 
