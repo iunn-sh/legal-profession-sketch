@@ -41,15 +41,15 @@ _footer: "[Google](https://blog.google/intl/zh-tw/company-news/outreach-initiati
 
 ---
 
+<!--
+_footer: "[劇夠](https://dramago.ptsplus.tv/articles/17984/) 2024.08"
+-->
+
 ### <!--fit-->《地面師》呈現不動產交易體系的疏漏與盲點，日本受害者實際被詐騙的55億日圓至今仍未討回
 
 > 《地面師》劇情以「地面師」為主軸。「地面」指的是土地，「師」則為專家，這群人自視為土地交易的專家，但實則為進行土地相關詐欺的犯罪分子，利用複雜的土地所有權關係鑽法律漏洞，透過偽造證件、文件，以假冒土地所有人或其代理人，再出售給不知情的買家，因為涉及土地交易，一次騙局往往牽扯到動輒千百萬的金錢交易。<mark>地面師往往是一個集團，包括</mark>負責主導的「領袖」、安排計畫的「交涉人」、消息靈通的「情報員」、<mark>精通法律的「法律專家」</mark>、有偽造技術的「文件偽造師」，以及尋找合適冒充者的「選角人」等成員，分工精細以確保計畫順利實施。
 >
 > 而這些地面師不是劇情設定，而是真實存在的。1980年代末到1990年代初，日本正值泡沫經濟時期，當時不動產價格高漲，地面師曾活躍一時，爾後在不動產交易文件數位化後，詐騙難度提升，讓地面師詐欺事件看似趨緩。
-
-<!--
-_footer: "[劇夠](https://dramago.ptsplus.tv/articles/17984/) 2024.08"
--->
 
 ---
 
@@ -717,7 +717,27 @@ _footer: "[Wikipedia](https://en.wikipedia.org/wiki/Letter_and_spirit_of_the_law
 
 > The <mark>letter of the law</mark> and the <mark>spirit of the law</mark> are two possible ways to regard rules, or laws. To obey the letter of the law is to follow the literal reading of the words of the law, whereas following the spirit of the law means enacting the intent behind the law. Although it is usual to follow both the letter and the spirit, the two are commonly referenced when they are in opposition.
 
+* 誹謗：名譽值多少？
 * 邏輯推理 :left_right_arrow: 價值選擇
+
+---
+
+<style scoped>
+ul {
+  list-style-type: none;
+}
+</style>
+
+<!--
+_footer: "[The Good Wife (S6 E18)](https://m.imdb.com/title/tt4529816/quotes/) 2015.04"
+-->
+
+### 客觀 :vs: 公平
+
+* > R.D.: Diane, can I ask you something? What do you think would happen if every case were adjudicated by someone with a family member or loved one who'd be affected by the decision?
+* > Diane Lockhart: Ultimately, perhaps, every case is.
+* > R.D.: But isn't the law supposed to be impersonal? In the sense that it should be the same for everyone? Y'know, otherwise we're in China, right? Everything's determined by who you know.
+* > Diane Lockhart: The law's supposed to be <mark>fair</mark>, not <mark>impersonal</mark>. In fact, I would argue that the law's always personal; it has to see the human side, too. Or else it's meaningless.
 
 ---
 
