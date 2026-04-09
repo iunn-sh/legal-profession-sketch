@@ -734,10 +734,10 @@ _footer: "[The Good Wife (S6 E18)](https://m.imdb.com/title/tt4529816/quotes/) 2
 
 ### 客觀 :vs: 公平
 
-* > R.D.: Diane, can I ask you something? What do you think would happen if every case were adjudicated by someone with a family member or loved one who'd be affected by the decision?
-* > Diane Lockhart: Ultimately, perhaps, every case is.
-* > R.D.: But isn't the law supposed to be impersonal? In the sense that it should be the same for everyone? Y'know, otherwise we're in China, right? Everything's determined by who you know.
-* > Diane Lockhart: The law's supposed to be <mark>fair</mark>, not <mark>impersonal</mark>. In fact, I would argue that the law's always personal; it has to see the human side, too. Or else it's meaningless.
+* > :mountain:: Diane, can I ask you something? What do you think would happen if every case were adjudicated by someone with a family member or loved one who'd be affected by the decision?
+* > :ocean:: Ultimately, perhaps, every case is.
+* > :mountain:: But isn't the law supposed to be impersonal? In the sense that it should be the same for everyone? Y'know, otherwise we're in China, right? Everything's determined by who you know.
+* > :ocean:: The law's supposed to be <mark>fair</mark>, not <mark>impersonal</mark>. In fact, I would argue that the law's always personal; it has to see the human side, too. Or else it's meaningless.
 
 ---
 
