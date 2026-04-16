@@ -803,7 +803,7 @@ _footer: "[Cambridge Dictionary](https://dictionary.cambridge.org) 2026.04"
 >
 > <mark>impersonal</mark> `adj`
 > without human warmth; not friendly and without features that make people feel interested or involved
-> 沒有人情味的，冷淡的
+> 沒有人情味的；冷淡的
 
 * 強制汽車責任保險法
 * 家庭暴力防治法
