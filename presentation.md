@@ -773,15 +773,15 @@ ul {
 </style>
 
 <!--
-_footer: "[Wikipedia](https://en.wikipedia.org/wiki/Letter_and_spirit_of_the_law) 2026.04"
+_footer: "[The Good Wife (S6 E18)](https://m.imdb.com/title/tt4529816/quotes/) 2015.04"
 -->
 
-### 法律文字 :vs: 精神
+### 客觀 :vs: 公平
 
-> The <mark>letter of the law</mark> and the <mark>spirit of the law</mark> are two possible ways to regard rules, or laws. To obey the letter of the law is to follow the literal reading of the words of the law, whereas following the spirit of the law means enacting the intent behind the law. Although it is usual to follow both the letter and the spirit, the two are commonly referenced when they are in opposition.
-
-* 誹謗：名譽值多少？
-* 邏輯推理 :left_right_arrow: 價值選擇
+* > :mountain:: Diane, can I ask you something? What do you think would happen if every case were adjudicated by someone with a family member or loved one who'd be affected by the decision?
+* > :ocean:: Ultimately, perhaps, every case is.
+* > :mountain:: But isn't the law supposed to be impersonal? In the sense that it should be the same for everyone? Y'know, otherwise we're in China, right? Everything's determined by who you know.
+* > :ocean:: The law's supposed to be <mark>fair</mark>, not <mark>impersonal</mark>. In fact, I would argue that the law's always personal; it has to see the human side, too. Or else it's meaningless.
 
 ---
 
@@ -792,15 +792,40 @@ ul {
 </style>
 
 <!--
-_footer: "[The Good Wife (S6 E18)](https://m.imdb.com/title/tt4529816/quotes/) 2015.04"
+_footer: "[Cambridge Dictionary](https://dictionary.cambridge.org) 2026.04"
 -->
 
-### 客觀 :vs: 公平
+### 那些由血淚堆積而成的法律規定
 
-* > :mountain:: Diane, can I ask you something? What do you think would happen if every case were adjudicated by someone with a family member or loved one who'd be affected by the decision?
-* > :ocean:: Ultimately, perhaps, every case is.
-* > :mountain:: But isn't the law supposed to be impersonal? In the sense that it should be the same for everyone? Y'know, otherwise we're in China, right? Everything's determined by who you know.
-* > :ocean:: The law's supposed to be <mark>fair</mark>, not <mark>impersonal</mark>. In fact, I would argue that the law's always personal; it has to see the human side, too. Or else it's meaningless.
+> <mark>fair</mark> `adj`
+> treating someone in a way that is right or reasonable, or treating a group of people equally and not allowing personal opinions to influence your judgment
+> 合理的；公平的；公正的；平等待人的
+>
+> <mark>impersonal</mark> `adj`
+> without human warmth; not friendly and without features that make people feel interested or involved
+> 沒有人情味的，冷淡的
+
+* 強制汽車責任保險法
+* 家庭暴力防治法
+
+---
+
+<style scoped>
+ul {
+  list-style-type: none;
+}
+</style>
+
+<!--
+_footer: "[Wikipedia](https://en.wikipedia.org/wiki/Letter_and_spirit_of_the_law) 2026.04"
+-->
+
+### 法律文字 :vs: 精神
+
+> The <mark>letter of the law</mark> and the <mark>spirit of the law</mark> are two possible ways to regard rules, or laws. To obey the letter of the law is to follow the literal reading of the words of the law, whereas following the spirit of the law means enacting the intent behind the law. Although it is usual to follow both the letter and the spirit, the two are commonly referenced when they are in opposition.
+
+* 誹謗：名譽值多少？
+* 邏輯推理 :left_right_arrow: 價值選擇
 
 ---
 
