@@ -104,18 +104,25 @@ _footer: "[國立臺灣大學法律學院](https://www.law.ntu.edu.tw/index.php/
 
 ---
 
+<style scoped>
+div {
+  height: 90%;
+  width: 100%;
+}
+</style>
+
 ### 職業選擇：公部門？私部門？
 
 <!-- Styles -->
-<style>
+<!-- <style>
 #tagCloudDiv {
   width: 85%;
   height: 80%;
 }
-</style>
+</style> -->
 
 <!-- HTML -->
-<div style="height:75vh;">
+<div>
   <div id="tagCloudDiv"></div>
 </div>
 
