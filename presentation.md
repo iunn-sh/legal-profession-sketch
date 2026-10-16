@@ -382,9 +382,16 @@ _footer: "[鏡週刊](https://www.mirrormedia.mg/story/20240122pol001) 2024.01"
 _footer: "[司法院](https://www.judicial.gov.tw/tw/cp-1789-90906-ae4c1-1.html) 2026.02"
 -->
 
+<style scoped>
+div {
+  height: 85%;
+  width: 100%;
+}
+</style>
+
 ### 法院統計：司法院及所屬各機關收結件數
 
-<div style="height:75vh;">
+<div>
   <canvas id="barChartCourt"></canvas>
 </div>
 
@@ -423,9 +430,16 @@ _footer: "[司法院](https://www.judicial.gov.tw/tw/cp-1789-90906-ae4c1-1.html)
 _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/visualize/Visualization.aspx?kind=PC&d=12) 2026.04"
 -->
 
+<style scoped>
+div {
+  height: 85%;
+  width: 100%;
+}
+</style>
+
 ### 地檢署統計：地方檢察署偵查新收件數
 
-<div style="height:75vh;">
+<div>
   <canvas id="barChartProsecute"></canvas>
 </div>
 
@@ -507,7 +521,7 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 
 <style scoped>
 div {
-  height: 80%;
+  height: 85%;
   width: 100%;
 }
 </style>
@@ -560,7 +574,7 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 
 <style scoped>
 div {
-  height: 55%;
+  height: 60%;
   width: 100%;
 }
 </style>
