@@ -505,9 +505,16 @@ _footer: "[民視新聞網](https://www.ftvnews.com.tw/news/detail/2025B21W0049)
 _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?menu=INF_COMMON_LAWYER) 2026.04"
 -->
 
+<style scoped>
+div {
+  height: 80%;
+  width: 100%;
+}
+</style>
+
 ### 律師統計：本國律師人數（人）
 
-<div style="height:75vh;">
+<div>
   <canvas id="barChartAttorney"></canvas>
 </div>
 
@@ -551,6 +558,13 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?menu=INF_COMMON_LAWYER) 2026.04"
 -->
 
+<style scoped>
+div {
+  height: 55%;
+  width: 100%;
+}
+</style>
+
 ### 律師統計：律師服務單位規模（家）
 
 | 年 | 總計 | 1人 | 2人 | 3-5人 | 6-10人 |	11-20人 | 21-50人 | 51人+ |
@@ -558,7 +572,7 @@ _footer: "[法務部](https://www.rjsd.moj.gov.tw/RJSDWeb/common/WebList3.aspx?m
 | 2017 | 5,894 | 4,267 | 782 | 648 | 150 | 34 | 10 | 3 |
 | 2018 | 5,917 | 4,237 | 762 | 702 | 159 | 41 | 13 | 3 |
 
-<div style="height:55vh;">
+<div>
   <canvas id="bubbleChartAttorney"></canvas>
 </div>
 
